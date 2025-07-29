@@ -22,7 +22,7 @@ numpy = ">=2"
 adbutils = ">=2"
 
 # Optional dependencies for ui
-PySide6 = { version = "^6.0.0", optional = true }
+PySide6 = { version = "^6.0.0", optional = true, python = "<3.14" }
 
 [tool.poetry.extras]
 ui = ["PySide6"]
